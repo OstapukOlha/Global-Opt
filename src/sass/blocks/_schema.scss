@@ -1,0 +1,29 @@
+.schema {
+    min-height: 454px;
+    padding-top: 51px;
+    background-color: #f3f3f3;
+    &__wrapper {
+        margin-top: 33px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    &__docs {
+        max-width: 250px;
+        text-align: center;
+        margin-bottom: 46px;
+        &_icon {
+            margin-bottom: 14px;
+        }
+        &_title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #ec644b;
+        }
+        &_text {
+            font-size: 14px;
+            font-weight: 300;
+            color: #3a3a3a;
+        }
+    }
+}    

@@ -1,0 +1,21 @@
+.title {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2e2e2e;
+    &_price {
+        font-size: 24px;
+        color: #3a3a3a;
+        margin-top: 56px;
+    }
+    &_manager {
+        font-size: 24px;
+        color: #ffffff;
+        text-transform: none;
+        margin-top: 20px;
+    }
+    &_reviews {
+        margin-top: 51px;
+    }
+}

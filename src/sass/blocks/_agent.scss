@@ -1,0 +1,25 @@
+.agent {
+    min-height: 342px;
+    background: url(../../img/baggraund2.jpg) center no-repeat;
+    padding: 58px 0 75px 0;
+    text-align: center;
+    &__image {
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ffffff;
+        border-radius: 50px;
+        height: 102px;
+        width: 102px;
+    }
+    &__title {
+        margin-top: 20px;
+        font-size: 26px;
+        font-weight: 700;
+        color: #ffffff; 
+    }
+    &__subtitle {
+        font-size: 19px;
+        font-weight: 300;
+        color: #ffffff; 
+    }
+}

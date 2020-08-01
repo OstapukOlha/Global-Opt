@@ -1,0 +1,47 @@
+.button {
+    width: 160px;
+    height: 45px;
+    background-color: #ec644b;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    &:hover{
+        background-color: #d46551;
+    }
+    &_promo {
+        display: block;
+        width: 230px;
+        height: 57px;
+        border-radius: 50px;
+        margin: 0 auto;
+        margin-top: 40px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    &_price {
+        display: block;
+        width: 160px;
+        height: 45px;
+        font-weight: 700;
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    &_form {
+        position: absolute;
+        z-index: 1;
+        bottom: -24px;
+        left: 50%;
+        margin-left: -91px;
+        width: 180px;
+        padding: 0px 10px;    
+    }
+    &_submit {
+        width: 270px;
+        font-weight: 700;
+        font-size: 15px;
+    } 
+}

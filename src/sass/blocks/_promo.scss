@@ -1,0 +1,60 @@
+.promo {
+    min-height: 680px;
+    background: url(../../img/baggraund1.jpg) center center/cover no-repeat;
+    padding: 23px 0 82px 0;
+    &__wrapper {
+        padding-top: 15px;
+        text-align: center;
+        &_slogan {
+            font-size: 24px;
+            font-weight: 300;
+            color: #ffffff;
+        }
+        &_title {
+            font-family: RobotoCondensed;
+            font-size: 72px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: $main-color;
+        }
+        &_subtitle {
+            font-family: RobotoCondensed;
+            font-size: 42px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #ffffff;
+        }    
+    }
+    &-icons {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 65px;
+        &:before {
+            content: "";
+            position: absolute;
+            display: block;
+            height: 10px;
+            background: url(../../icons/line.png) center no-repeat;
+            margin-top: -185px;
+            width: 75%;
+            left: 125px;
+        }
+        &__item {
+            margin: 0 auto;
+            &_icon {
+                display: flex;
+                justify-content: center;
+                align-items: start;
+                height: 63px;
+            }
+            &_subtitle {
+                font-size: 16px;
+                font-weight: 300;
+                color: #ffffff;
+            }
+        }
+    }    
+    
+}

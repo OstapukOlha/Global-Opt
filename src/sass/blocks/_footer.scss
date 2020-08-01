@@ -1,0 +1,79 @@
+.footer {
+    min-height: 200px;
+    background-color: #25333c;
+    padding: 24px 0 36px 0;
+    &__info {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_logo {
+            height: 68px;
+            width: 71px;
+            img {
+                height: 68px;
+                width: 71px;
+            }
+        }   
+        &_text {
+            font-size: 16px;
+            font-weight: 700;
+            color: #ffffff; 
+            margin-left: 45px;
+        }
+    }
+    &__right {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_phone {
+            padding-right: 20px;
+        }
+        &_subheader {
+            text-align: right;
+            font-size: 14px;
+            font-weight: 300;
+            color: #ffffff;
+        }
+        &_coll {
+            font-size: 19px;
+            font-weight: 700;
+            color: #ffff;
+            &:hover {
+                color: $main-color
+            }
+        }
+        
+    }
+    &__line {
+        display: block;
+        margin-top: 25px;
+        height: 2px;
+        background: #867d7da4;
+        
+    }
+    &__bottom {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        &_rights {
+            opacity: 0.6;
+            font-size: 13px;
+            font-weight: 300;
+            color: #ffffff;
+        }
+        &_link {
+            font-size: 13px;
+            font-weight: 300;
+            text-decoration: underline;
+            color: #ec644b;
+            &:hover {
+                color: white;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,90 @@
+.price {
+    min-height: 950px;
+    padding-top: 53px;
+    padding-bottom: 58px;
+    &__line {
+        display: block;
+        margin: 20px auto;
+        height: 1px;
+        width: 148px;
+        background-color: #ec644b;
+    }
+    &__subtitle {
+        font-size: 21px;
+        font-weight: 300;
+        color: #2e2e2e;
+        text-align: center;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 34px;
+    }
+    &__delivery {
+        border: 1.0px solid #898989;
+        width: 265px;
+        min-height: 355px;
+        
+        &_header {
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #ffff;
+            text-align: center;
+            background-color: #25333c;
+            min-width: 261px;
+            height: 61px;
+            padding: 20px 0 22px 0;    
+        }
+        &_icon {
+            text-align: center;
+            margin-top: 14px;
+        }
+        &_time {
+            margin-top: 12px;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #2e2e2e;
+            text-align: center;
+            span {
+                font-size: 28px;
+                text-transform: none;
+                color: #ec644b;
+            }
+        }
+        &_text {
+            font-size: 14px;
+            font-weight: 300;
+            color: #2e2e2e;
+            text-align: center;
+            padding: 0 13px 0 18px;
+        }
+
+    }
+    .active {
+        margin-top: 71px;
+        text-align: center;
+        position: relative;
+        padding: 65px 0 50px;
+        border: 1px solid #898989;
+        &__wrapper {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        &__icon {
+            position: absolute;
+            top: -51px;
+            left: 50%;
+            margin-left: -60px;
+            z-index: 1;
+            background: #fff;
+            padding: 0 10px;
+        }
+        &__form {
+            padding: 10px 44px;
+            border: 1px solid rgba(0, 0, 0, 0.21);
+            border-radius: 50px;     
+        }
+    }
+}

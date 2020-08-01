@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .menu {
+        display: flex;
+        list-style-type: none;
+
+
+        &__item {
+            border-right: 1px dotted rgba(255, 255, 255, 0.4);
+            padding: 0 15px 0 15px;
+            &:last-child {
+                border-right: none;
+            }
+            &_link {
+                margin-bottom: 10px;
+                font-size: 15px;
+                font-weight: 400;
+                color: #ffffff;
+                &:hover {
+                    color: $main-color
+                }
+            }
+        }
+    }    
+    &__phone {
+        text-align: right;
+        &_subheader {
+            font-size: 14px;
+            font-weight: 300;
+            color: #ffffff;
+        }
+    }
+    &__coll {
+        font-size: 19px;
+        font-weight: 700;
+        color: #ffffff;
+        &:hover {
+            color: $main-color;
+        }
+    }
+    
+}

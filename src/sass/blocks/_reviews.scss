@@ -1,0 +1,56 @@
+.reviews {
+    min-height: 470px;
+    &__line {
+        display: block;
+        margin: 20px auto;
+        height: 1px;
+        width: 148px;
+        background-color: #ec644b;
+    }
+    &__subtitle {
+        text-align: center;
+        font-size: 21px;
+        font-weight: 300;
+        color: #2e2e2e;
+    }
+    &__carousel {
+        text-align: center;
+        margin-top: 45px;
+    }
+    &__slide {
+        position: relative;
+        width: 350px;
+        margin: 0 auto;
+    }
+    &__image {
+        width: 350px;
+        &_photo {
+            margin-left: 125px;
+        }  
+        &_title {
+            margin: 30px 0 10px;
+            font-size: 18px;
+            font-weight: 700;
+            color: #3a3a3a;
+        }
+        &_text {
+            font-size: 14px;
+            font-weight: 300;
+        }
+    }
+    .slick-prev, .slick-next {
+        position: absolute;
+        border: none;
+        background-color: #fff;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -100px;
+        img {
+            height: 46px;
+            width: 14px; 
+        }
+    }
+    .slick-next {
+        left: 400px;
+    }
+}

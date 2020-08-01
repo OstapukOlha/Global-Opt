@@ -1,0 +1,43 @@
+.work {
+    min-height: 620px;
+    padding: 51px 0 57px 0;
+    &__line {
+        display: block;
+        margin: 20px auto;
+        height: 1px;
+        width: 148px;
+        background-color: #ec644b;
+    }
+    &__subtitle {
+        display: block;
+        text-align: center;
+        font-size: 21px;
+        font-weight: 300;
+        color: #2e2e2e;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 37px;
+    }
+    &__image {
+        max-width: 360px;
+        &_descr {
+            margin-top: 21px;
+            text-align: center;
+            text-transform: initial;
+            font-size: 18px;
+            font-weight: 700;
+            color: #ec644b;
+        }
+        &_text {
+            margin-top: 12px;
+            font-size: 14px;
+            font-weight: 300;
+            color: #3a3a3a;
+            text-align: center;
+
+        }
+    }
+
+}
